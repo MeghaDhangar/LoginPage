@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:wght@600&family=Josefin+Sans&display=swap");
+
+body {
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(to left, rgb(128, 155, 246), pink, rgb(97, 24, 199));
+}
+
+.main {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    top: 70px ;
+    border: none;
+    border-radius: 6px;
+    min-width: 55px;
+    height: 500px;
+    background-color: white;
+    /* background: transparent; */
+    font-family: 'Josefin Sans', sans-serif;
+    box-shadow: 0px 0px 14px black;
+}
+
+.title{
+    position: relative;
+    bottom:15px;
+}
+
+.first,.third,.fourth,.login {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 12px;
+}
+
+.icons1 {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+input {
+    min-width: 250px;
+    height: 30px;
+    padding-left: 10px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    box-shadow: 1px 0px 4px black;
+    border-radius: 2px;
+}
+
+.third a {
+    position: relative;
+    text-align: right;
+    text-decoration: none;
+    color: black;
+    bottom: 15px;
+}
+
+.login button {
+    padding: 10px;
+    min-width: 250px;
+    height: 35px;
+    border-radius: 25px;
+    border: none;
+    background-image: linear-gradient(to right, rgb(74, 74, 244), rgb(237, 158, 233));
+}
+
+.login button a {
+    text-decoration: none;
+}
+
+.fourth{
+    position: relative;
+    text-align: center;
+    bottom: 3px;
+
+}

@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:wght@600&family=Josefin+Sans&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Fasthand&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* background-color: rgb(231, 136, 12); */
+    background-image: linear-gradient(to right,orange,  rgb(241, 69, 69),orange);
+
+}
+
+.container {
+    background-color: aliceblue;
+    position: relative;
+    margin: 80px auto;
+    border-radius: 5px;
+    height: 75vh;
+    display: flex;
+    gap: 4px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    box-shadow: 0px 0px 15px black;
+    width: 60%
+}
+
+.div1 {
+    background-image: url('/Image/bub.jpg');
+    background-size: cover;
+    border: 1px solid;
+    border-radius: 12px;
+    height: 94.5%;
+    width: 30%;
+    
+}
+.div1 h2{
+    position: relative;
+    /* writing-mode: vertical-rl; */
+    /* transform: rotate(-90deg); */
+    /* transform-origin: 0 0; */
+  transform: rotate(270deg);
+  font-family: 'Fasthand', cursive;
+  top: 45%;
+  left: 26%;
+  color: rgb(245, 211, 183);
+  font-size: 65px;
+  font-weight: 500;
+}
+
+.div2 {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid;
+    border-radius: 12px;
+    gap: 26px;
+    height: 90%;
+    width: 60%;
+    padding: 12px;
+    font-family: 'Josefin Sans', sans-serif;
+
+
+}
+
+.firstInput,
+.third {
+    display: flex;
+    flex-direction: row;
+    gap: 55px;
+    height: 7%;
+    min-width: 100px;
+    border: none;
+}
+
+input {
+    padding: 12px;
+    border: none;
+    width: 50%;
+    outline: none;
+    background: transparent;
+    border-bottom: 2px solid black;
+    border-radius: 2px;
+    /* box-shadow: 0px 1px 1px black; */
+}
+
+.firstInput {
+    /* width: 80%; */
+}
+
+.second input {
+    display: flex;
+    justify-content: flex-start;
+    width: 95%;
+}
+
+.fourth input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 36%;
+    width: 30%;
+    border-style: none;
+    color: white;
+    border-radius: 3px;
+    background-color: rgb(243, 84, 55);
+    box-shadow: 0px 1px 6px black;
+}
+
+.five input {
+
+    height: 20px;
+    width: 50px;
+}
+
+.five {
+    display: flex;
+    text-align: center;
+}
+
+.six{
+    display: flex;
+    margin-left: 30%;
+    text-align: center;
+    gap: 5px;
+}
